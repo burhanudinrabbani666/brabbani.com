@@ -14,7 +14,7 @@ Website : [brabbani.com](https://www.brabbani.com)
 
 ### Home
 
-![Home-page](/foto/brabbani/brabbani.png)
+![Home-page](/brabbani/brabbani.png)
 
 On the current front page, of course, there isn't much I can show, but there are a few things I can share.
 
@@ -22,7 +22,7 @@ On the current front page, of course, there isn't much I can show, but there are
 
 - **Logo**
 
-![logo](/foto/brabbani/logo.png)
+![logo](/brabbani/logo.png)
 
 - **3-button**
 
@@ -34,7 +34,7 @@ On the current front page, of course, there isn't much I can show, but there are
 
     when the user click the button. its open new windows with difference content
 
-    ![Also-me](/foto/brabbani/brabbani-also-me.png)
+    ![Also-me](/brabbani/brabbani-also-me.png)
 
   - Contact
 
@@ -42,19 +42,19 @@ On the current front page, of course, there isn't much I can show, but there are
 
 ### Hero Section
 
-![hero](/foto/brabbani/introduction-section.png)
+![hero](/brabbani/introduction-section.png)
 
 ### Project
 
-![project](/foto/brabbani/project.png)
+![project](/brabbani/project.png)
 
 When a user clicks on a photo or project title, they'll be redirected to a new page containing a more detailed and technical description of the project. Users can also visit the GitHub logo directly—for code and web—to view the results.
 
-![project-page](/foto/brabbani/brabbani-project.png)
+![project-page](/brabbani/brabbani-project.png)
 
 ### footer
 
-![footer](/foto/brabbani/footer.png)
+![footer](/brabbani/footer.png)
 
 contains links to continue more professional matters.
 
@@ -71,3 +71,4 @@ Phone : [+62-87856677867]
 Linked.in : [--]
 
 ## THANK'S
+
