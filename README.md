@@ -69,7 +69,8 @@ X : [--]
 
 Linked.in : [--]
 
-## THANK'S
+## THANKS
+
 
 
 
