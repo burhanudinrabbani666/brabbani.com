@@ -42,11 +42,12 @@ On the current front page, of course, there isn't much I can show, but there are
 
 ### Hero Section
 
-![hero](/brabbani/introduction-section.png)
+![hero](/brabbani/hero.png)
+![aboutme](/brabbani/aboutme.png)
 
 ### Project
 
-![project](/brabbani/project.png)
+![project](/brabbani/work.png)
 
 When a user clicks on a photo or project title, they'll be redirected to a new page containing a more detailed and technical description of the project. Users can also visit the GitHub logo directly—for code and web—to view the results.
 
@@ -71,4 +72,5 @@ Phone : [+62-87856677867]
 Linked.in : [--]
 
 ## THANK'S
+
 
