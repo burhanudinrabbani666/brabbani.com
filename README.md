@@ -63,14 +63,13 @@ Email : [Burhanudin-rabbani](mailto:burhanudinrabbani666@gmail.com)
 
 Telegram : [burhanudinrabbani666](t.me/@burhanudinrabbani666)
 
-Whatsapp : [Bani](wa.me/087856677867)
+Whatsapp : [Bani]
 
 X : [--]
-
-Phone : [+62-87856677867]
 
 Linked.in : [--]
 
 ## THANK'S
+
 
 
