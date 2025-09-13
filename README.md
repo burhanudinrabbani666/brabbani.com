@@ -10,68 +10,51 @@ Github : [burhanudinrabbani666]()
 
 Website : [brabbani.com](https://www.brabbani.com)
 
-## PERSONAL WEBSITE
+## Home
 
-### Home
+![Home](/brabbani/Red/home.png)
 
-![Home-page](/brabbani/brabbani.png)
+Home have 5 section
 
-On the current front page, of course, there isn't much I can show, but there are a few things I can share.
+- Hero
 
-### Navigation Bar
+  this page section not final design.
 
-- **Logo**
+- About me
 
-![logo](/brabbani/logo.png)
+  this section tell little bit about my vision and mision. also about my work experience
 
-- **3-button**
+- Project
 
-  - Project
+  In the project homepage, content is displayed on two screens. The first displays the company profile and website results, while the second displays a brief description of the project. There are also three buttons on each screen that can direct you to a more complete and detailed project description page, displaying all previously completed projects, and selecting the next project to be displayed.
 
-    If user click the button, it's directly to project section on this same page.
+  ### Detail Project Page
 
-  - Also me
+  ![detail-project](/brabbani/Red/detail-project.png)
 
-    when the user click the button. its open new windows with difference content
+  ### Dispaly Project Page
 
-    ![Also-me](/brabbani/brabbani-also-me.png)
+  ![display-project](/brabbani/Red/project.png)
 
-  - Contact
+- Activity
 
-    when the user click the button. it's showing an tiny box with all contact include
+  This section will feature three main activities the author undertakes each month. These aren't Instagram posts, but rather self-development activities worth sharing. Each folder will take users directly to a more detailed page.
 
-### Hero Section
+  ### Activy Example Page
 
-![hero](/brabbani/hero.png)
-![aboutme](/brabbani/aboutme.png)
+  ![bearmentor-example](/brabbani/Red/experience-bearmentor-bootcamp.png)
 
-### Project
+- Footer
 
-![project](/brabbani/work.png)
+  this section show contact
 
-When a user clicks on a photo or project title, they'll be redirected to a new page containing a more detailed and technical description of the project. Users can also visit the GitHub logo directly—for code and web—to view the results.
+That's a brief explanation of my personal website.
 
-![project-page](/brabbani/brabbani-project.png)
+**Let's be friend**
 
-### footer
-
-![footer](/brabbani/footer.png)
-
-contains links to continue more professional matters.
-
-Email : [Burhanudin-rabbani](mailto:burhanudinrabbani666@gmail.com)
-
-Telegram : [burhanudinrabbani666](t.me/@burhanudinrabbani666)
-
-Whatsapp : [Bani]
-
-X : [--]
-
-Linked.in : [--]
-
-## THANKS
-
-
-
-
-
+| Contact Me | :                                                               |
+| ---------- | --------------------------------------------------------------- |
+| Github     | [burhanudinrabbani666](https://github.com/burhanudinrabbani666) |
+| Telegram   | [burhanudinrabbani666](https://t.me/burhanudinrabbani666)       |
+| Email      | [burhanudin-rabbani]()                                          |
+| Website    | **https**://www.brabbani.com                                    |
