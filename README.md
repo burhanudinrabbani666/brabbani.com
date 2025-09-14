@@ -57,4 +57,4 @@ That's a brief explanation of my personal website.
 | Github     | [burhanudinrabbani666](https://github.com/burhanudinrabbani666) |
 | Telegram   | [burhanudinrabbani666](https://t.me/burhanudinrabbani666)       |
 | Email      | [burhanudin-rabbani]()                                          |
-| Website    | **https**://www.brabbani.com                                    |
+| Website    | [brabbani.com](htpps://www.brabbani.com)                        |
