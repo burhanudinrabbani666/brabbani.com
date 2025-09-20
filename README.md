@@ -4,9 +4,9 @@ Hi, let me introduce myself. My name is Burhanudin Rabbani. I'm a beginner in we
 
 ## Links
 
-- Figma: https://figma.com/design/EXKlqZM6jUT3nMCf7XKO3r/brabbani.com?node-id=0-1&t=ElEnzI8HPoOgV6jB-1
+- Figma: [burhanudinrabbani666](https://figma.com/design/EXKlqZM6jUT3nMCf7XKO3r/brabbani.com?node-id=0-1&t=ElEnzI8HPoOgV6jB-1)
 - GitHub: [burhanudinrabbani666](https://github.com/burhanudinrabbani666)
-- Website: [brabbani.com//brabbani.com]
+- Website: [brabbani.com](https://brabbani-com.vercel.app/)
 
 ## Home
 
