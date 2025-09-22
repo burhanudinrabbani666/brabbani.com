@@ -144,23 +144,35 @@ body {
 }
 
 h1 {
-  font-size: 3.815rem;
+  font-size: 127.88px;
   color: #ca0404;
   font-weight: 1000;
 }
 h2 {
-  font-size: 3.052rem;
+  font-size: 67.83px;
   font-weight: bold;
 }
 h3 {
-  font-size: 2.441rem;
+  font-size: 47.97;
+}
+h4 {
+  font-size: 33.93px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 23.99px;
+  font-weight: bold;
+}
+h6 {
+  font-size: 16.97px;
+  font-weight: bold;
 }
 p {
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 10%;
 }
-
 
 /* Navbar */
 .navbar {
@@ -198,7 +210,6 @@ p {
   color: #f2f2f2;
 }
 
-
 /* hero */
 .hi {
   font-size: 0.8rem;
@@ -214,36 +225,35 @@ h1 {
   margin-bottom: 180px;
 }
 
-
 /* hero-2 */
 .short-hi {
-  width: 31.6%;
+  width: 32.4%;
   margin-right: 293px;
   margin-bottom: 100px;
 }
 .position {
   font-weight: 600;
-  opacity: 0.85;;
+  opacity: 0.85;
   margin-bottom: 8px;
-  text-align: right;
+  text-align: left;
 }
 .stay {
   font-weight: 700;
 }
 .intro-text {
   margin-bottom: 48px;
-  text-align: right;
+  text-align: left;
 }
 .lets-go-p {
   display: flex;
-  justify-content: end;
+  justify-content: start;
 }
-.lets-go{
-  border: #ca0404 3px solid  ;
+.lets-go {
+  border: #ca0404 3px solid;
   padding: 10px 30px;
   color: #1a1a1a;
   text-decoration: none;
-  margin-bottom: 88px;
+  margin-bottom: 28px;
 }
 .lets-go:hover {
   background-color: #ca0404;
@@ -251,36 +261,67 @@ h1 {
   transition: 0.3s;
 }
 
-
 /* main-aboutme */
 
 .intro {
   border: #1a1a1a 1px solid;
 }
 .about-me {
-  border: 1px solid black;
+  display: flex;
+  margin-bottom: 128px;
+}
+.about-me-1 {
+  width: 49%;
+  margin-right: 38px;
 }
 #about-me {
   margin-bottom: 24px;
   padding-top: 20px;
 }
-.about-me-text{
-  border: 1px solid black ;
-  width:50% ;
+.about-me-text {
+}
+.about-me-text-1,
+.about-me-text-2 {
+  padding: 4px;
 }
 strong {
   font-weight: bold;
 }
-.tech-stack{
+.tech-stack {
   margin-top: 24px;
   display: flex;
   gap: 10px;
 }
-section h3 {
-  border-right: 2px solid #1a1a1a38;
-  padding-right: 4%;
+section h4 {
+  padding-right: 7%;
+  font-weight: bold;
+  border-right: 2px solid #1a1a1a;
 }
-.list-skill{
+.list-skill {
   display: flex;
 }
-.photo-profile
+.photo-profile {
+  width: 350px;
+  height: 485px;
+  margin: auto;
+  background-image: url(../images/bani-1.jpg);
+  background-size: cover;
+}
+
+.work-experience {
+  border: #1a1a1a solid 1px;
+}
+.work-head {
+  margin-bottom: 24px;
+}
+.work-tab {
+  display: flex;
+  gap: ;
+}
+.work-experience-1 {
+  width: 80%;
+  justify-content: left;
+}
+.work-experience-2 {
+  text-align: right;
+}
