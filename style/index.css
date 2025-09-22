@@ -150,6 +150,7 @@ h1 {
 }
 h2 {
   font-size: 3.052rem;
+  font-weight: bold;
 }
 h3 {
   font-size: 2.441rem;
@@ -160,9 +161,6 @@ p {
   letter-spacing: 10%;
 }
 
-.hero {
-  border: 1px solid #1a1a1a;
-}
 
 /* Navbar */
 .navbar {
@@ -174,7 +172,6 @@ p {
   margin-bottom: 100px;
   background-color: #f2f2f2;
   width: 80%;
-  border: #1a1a1a 1px solid;
   align-content: center;
 }
 .list-nav {
@@ -193,11 +190,16 @@ p {
 }
 .list-nav-links:hover {
   opacity: 0.7;
+  background-color: #1a1a1a11;
 }
 .list-nav-links:active {
   opacity: 1;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
 }
 
+
+/* hero */
 .hi {
   font-size: 0.8rem;
   font-weight: 500;
@@ -206,15 +208,79 @@ p {
 }
 h1 {
   width: 50%;
-  border: 1px solid #1a1a1a;
   letter-spacing: -3%;
   font-weight: 900;
   font-family: "Inter", sans-serif;
   margin-bottom: 180px;
 }
 
+
+/* hero-2 */
 .short-hi {
-  border: #1a1a1a 1px solid;
-  width: 42%;
+  width: 31.6%;
   margin-right: 293px;
+  margin-bottom: 100px;
 }
+.position {
+  font-weight: 600;
+  opacity: 0.85;;
+  margin-bottom: 8px;
+  text-align: right;
+}
+.stay {
+  font-weight: 700;
+}
+.intro-text {
+  margin-bottom: 48px;
+  text-align: right;
+}
+.lets-go-p {
+  display: flex;
+  justify-content: end;
+}
+.lets-go{
+  border: #ca0404 3px solid  ;
+  padding: 10px 30px;
+  color: #1a1a1a;
+  text-decoration: none;
+  margin-bottom: 88px;
+}
+.lets-go:hover {
+  background-color: #ca0404;
+  color: #f2f2f2;
+  transition: 0.3s;
+}
+
+
+/* main-aboutme */
+
+.intro {
+  border: #1a1a1a 1px solid;
+}
+.about-me {
+  border: 1px solid black;
+}
+#about-me {
+  margin-bottom: 24px;
+  padding-top: 20px;
+}
+.about-me-text{
+  border: 1px solid black ;
+  width:50% ;
+}
+strong {
+  font-weight: bold;
+}
+.tech-stack{
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+}
+section h3 {
+  border-right: 2px solid #1a1a1a38;
+  padding-right: 4%;
+}
+.list-skill{
+  display: flex;
+}
+.photo-profile
