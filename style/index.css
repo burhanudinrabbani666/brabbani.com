@@ -142,6 +142,9 @@ footer {
   width: 40px;
   height: 40px;
 }
+strong {
+  font-weight: bold;
+}
 
 h1 {
   font-size: 111.9px;
@@ -150,9 +153,10 @@ h1 {
 }
 h2 {
   font-size: 79.14px;
-  font-weight: 600;
+  font-weight: bold;
 }
 h3 {
+  font-weight: bold;
   font-size: 55.97px;
 }
 h4 {
@@ -256,4 +260,72 @@ h1 {
   background-color: #ca0404;
   color: #f2f2f2;
   cursor: pointer;
+}
+
+/* main - about me */
+
+.about-me {
+  display: flex;
+  justify-content: start;
+  gap: 80px;
+}
+.about-me-box {
+  width: 55%;
+  margin-top: 30px;
+}
+#aboutme {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  text-indent: 5px;
+  border-bottom: 1px solid #1a1a1a4a;
+}
+.introduction-text-1,
+.introduction-text-2 {
+  margin-bottom: 6px;
+}
+.myskill {
+  margin-top: 18px;
+  display: flex;
+}
+.myskill h5 {
+  width: 20%;
+  border-right: 2px solid #1a1a1a;
+  justify-content: space-between;
+}
+.list-skill {
+  display: flex;
+  height: 0px;
+}
+.logo {
+  height: 30px;
+}
+.photo-profile {
+  background-image: url(../images/bani-1.jpg);
+  width: 300px;
+  height: 380px;
+  display: flex;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* main-work experience */
+
+.work-experience {
+  margin-top: 130px;
+}
+.work-head {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1a1a1a4a;
+  width: 400px;
+}
+.work-tab {
+  display: flex;
+}
+.work-experience-1 {
+  margin-top: 14px;
+  width: 50%;
+  margin-left: 10px;
+}
+.factory {
+  margin-bottom: 8px;
 }
