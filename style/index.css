@@ -356,6 +356,7 @@ h1 {
   justify-content: center;
   margin: auto;
   height: 150px;
+  margin-bottom: 9rem;
 }
 .box {
   border-radius: 10000px;
@@ -366,4 +367,37 @@ h1 {
   height: 100%;
   background-color: #1a1a1a;
   color: #f2f2f2;
+}
+
+.activity-section {
+  padding: 24px 0;
+}
+.activity {
+  padding: 10px 0;
+  width: 150px;
+  border-bottom: #1a1a1a 1px solid;
+}
+.list-activity {
+  margin-top: 10px;
+  text-indent: 10px;
+  opacity: 0.8;
+  width: 35%;
+  padding: 10px;
+  transition: opacity 0.4s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.bearmentor {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.list-activity:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.link {
+  width: 16px;
+  height: 16px;
 }
