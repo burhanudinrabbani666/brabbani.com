@@ -207,6 +207,10 @@ p {
   background-color: #1a1a1a;
   color: #f2f2f2;
 }
+.logo-nav {
+  width: 40px;
+  height: 40px;
+}
 
 /* Header */
 
@@ -244,8 +248,8 @@ h1 {
 }
 .linkcomeon {
   text-decoration: none;
-  color: #1a1a1a;
-  border: 2px solid #ca0404;
+  color: #f2f2f2;
+  background-color: #1a1a1a;
   padding: 10px 20px;
   transition: background-color 0.2s;
 }
@@ -446,4 +450,46 @@ h1 {
   height: 850px;
   background-repeat: no-repeat;
   background-position: -1300px -800px;
+}
+.footer-main-content {
+  border: 3px solid white;
+  display: flex;
+  height: 100%;
+}
+.footer-hero {
+  color: #f2f2f2;
+  margin-top: 25%;
+  margin-left: 5%;
+  margin-bottom: 9%;
+}
+.footer-heading {
+  width: 80%;
+  margin-bottom: 24px;
+}
+.footer-text {
+  width: 40%;
+}
+
+.footer-contact {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 40%;
+  margin-bottom: 8%;
+}
+.contact-link {
+  background-color: #ca0404;
+  margin: 10px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  border-radius: 1000px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.footer-logo {
+  width: 40px;
+}
+.contact-link:hover {
+  opacity: 1;
+  cursor: pointer;
 }
