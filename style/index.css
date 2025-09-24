@@ -433,3 +433,58 @@ p {
   background-color: #040404;
   margin-top: 108px;
 }
+
+/* input */
+.main-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 40%;
+}
+.drop {
+  margin-bottom: 24px;
+}
+.ifyou {
+  text-indent: 10px;
+  margin-bottom: 16px;
+}
+.input {
+  width: 100%;
+  margin-bottom: 13px;
+  padding: 10px 0;
+  text-indent: 10px;
+  background-color: #f2f2f2;
+  border: 0;
+  border-bottom: 1px solid #3333334d;
+}
+.textarea {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  text-indent: 5px;
+  border: 0;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #3333334d;
+  margin-bottom: 24px;
+}
+.button {
+  width: 30%;
+  margin: auto;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #bc04b6;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+.contact-image {
+  width: 800px;
+  height: 400px;
+  background-image: url(/images/chat.png);
+  background-size: cover;
+  background-position: 0;
+}
