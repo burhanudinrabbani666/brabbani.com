@@ -435,12 +435,12 @@ p {
   margin-bottom: 8%;
 }
 .contact-link {
-  background-color: #ca0404;
-  margin: 10px;
+  background-color: #f4b400;
+  margin-right: 20px;
   padding: 25px;
   align-items: center;
+  border-radius: 10px;
   display: flex;
-  border-radius: 1000px;
   opacity: 0.5;
   transition: opacity 0.3s;
 }
