@@ -131,7 +131,8 @@ body {
 }
 
 header,
-main {
+main,
+.main-contact {
   width: 75%;
   margin: auto;
 }
