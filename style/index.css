@@ -227,14 +227,12 @@ p {
 }
 
 .short-intro-container {
-  display: flex;
-  justify-content: end;
   margin-top: 100px;
   padding-bottom: 48px;
 }
 .short-intro {
-  width: 38%;
-  margin-right: 5%;
+  width: 30%;
+  margin-right: 7%;
 }
 .position {
   margin-bottom: 12px;
@@ -276,6 +274,7 @@ p {
 #aboutme {
   margin-bottom: 14px;
   padding-bottom: 10px;
+  padding-top: 20px;
   text-indent: 5px;
   border-bottom: 1px solid #1a1a1a4a;
 }
