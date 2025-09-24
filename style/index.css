@@ -125,8 +125,8 @@ table {
 
 body {
   background-color: #f2f2f2;
-  color: #1a1a1a;
-  font-family: "Inter", sans-serif;
+  color: #333;
+  font-family: "inter", sans-serif;
   margin: auto;
 }
 
@@ -145,29 +145,32 @@ strong {
 }
 
 h1 {
-  font-size: clamp(3rem, 8vw, 10rem);
-  color: #ca0404;
+  font-size: clamp(3rem, 8vw, 8rem);
+  color: #800020;
   font-weight: 1000;
   margin-top: 10px;
-  letter-spacing: -3px;
+  font-family: "poppins", sans-serif;
 }
 h2 {
-  font-size: clamp(2.5rem, 8vw, 5.6rem);
+  font-size: 2.488rem;
   font-weight: bold;
 }
 h3 {
-  font-size: 3.998rem;
+  font-size: 2.074em;
+  font-weight: 600;
 }
 h4 {
-  font-size: clamp(1.7rem, 2vw, 2.8rem);
+  font-size: 1.728rem;
+  font-weight: 600;
 }
 
 h5 {
-  font-size: 27.99px;
+  font-size: 1.44rem;
+  font-weight: 600;
 }
 h6 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
 }
 p {
   font-size: 14px;
@@ -220,14 +223,13 @@ p {
 .hero p {
   text-indent: 5px;
   margin-bottom: -15px;
-  font-weight: 700;
-  opacity: 0.9;
+  font-weight: 600;
 }
 
 .short-intro-container {
   display: flex;
   justify-content: end;
-  margin-top: 170px;
+  margin-top: 100px;
   padding-bottom: 48px;
 }
 .short-intro {
@@ -235,7 +237,6 @@ p {
   margin-right: 5%;
 }
 .position {
-  opacity: 0.9;
   margin-bottom: 12px;
 }
 .stay {
@@ -249,13 +250,14 @@ p {
 }
 .linkcomeon {
   text-decoration: none;
-  color: #f2f2f2;
-  background-color: #1a1a1a;
+  color: #000;
+  background-color: #f4b400;
   padding: 10px 20px;
   transition: background-color 0.2s;
+  border-radius: 10px;
 }
 .linkcomeon:hover {
-  background-color: #ca0404;
+  background-color: #000000;
   color: #f2f2f2;
   cursor: pointer;
 }
@@ -331,11 +333,10 @@ p {
 .responsible {
   line-height: 150%;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
-.responsible-1 {
-  line-height: 150%;
-  width: 100%;
-}
+
 /* main-activity */
 
 .project-section {
@@ -362,8 +363,9 @@ p {
   text-align: center;
   margin: auto;
   border-radius: 100px;
-  background-color: #1a1a1a;
+  background-color: #333;
   color: #f2f2f2;
+  font-style: italic;
 }
 
 .activity-section {
@@ -389,7 +391,7 @@ p {
 }
 .bearmentor {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #333;
 }
 .list-activity:hover {
   opacity: 1;
