@@ -130,12 +130,6 @@ body {
   margin: auto;
 }
 
-header,
-main {
-  width: 75%;
-  margin: auto;
-}
-
 .logo {
   width: 20px;
   height: 20px;
@@ -178,6 +172,13 @@ p {
   letter-spacing: 10%;
 }
 
+.bearmentor-about,
+.description-bearmentor {
+  width: 75%;
+  margin: auto;
+}
+
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -209,183 +210,58 @@ p {
   border-radius: 10px;
 }
 
-/* Header */
+/* main contenta */
 
-.hero p {
-  text-indent: 5px;
-  margin-bottom: -15px;
+.bearmentor-about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.bearmentor-heading {
+  margin-bottom: 24px;
+}
+.bearmentor-text {
+  margin-bottom: 16px;
+  width: 70%;
+}
+.main-photo {
+}
+
+/* desciption bearmentor */
+.description-bearmentor {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.list-day {
+  padding: 20px 30px;
   font-weight: 600;
-}
-
-.short-intro-container {
-  margin-top: 100px;
-  padding-bottom: 48px;
-}
-.short-intro {
-  width: 30%;
-  margin-right: 7%;
-}
-.position {
-  margin-bottom: 12px;
-}
-.stay {
-  font-weight: bold;
-}
-.call-to-action {
-  margin-top: 40px;
-  font-weight: bold;
-  font-size: 16px;
-  padding-bottom: 20px;
-}
-.linkcomeon {
-  text-decoration: none;
-  color: #f2f2f2;
-  background-color: hsla(302, 100%, 14%, 0.671);
-  padding: 10px 20px;
-  transition: background-color 0.2s;
+  background-color: #3333336c;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
-.linkcomeon:hover {
-  background-color: hsl(302, 100%, 14%);
+.list-day a {
   color: #f2f2f2;
-  cursor: pointer;
-}
-
-/* main - about me */
-
-.about-me {
-  display: flex;
-  justify-content: space-between;
-}
-.about-me-box {
-  width: 55%;
-  margin-top: 30px;
-}
-#aboutme {
-  margin-bottom: 25px;
-  padding: 20px 0 5px;
-  border-bottom: 1px solid #333;
-  width: 40%;
-}
-.introduction-text {
-  margin: 6px 0 6px;
-}
-.myskill {
-  margin-top: 18px;
-  display: flex;
-  gap: 30px;
-}
-.skill-head {
-  border-right: 2px solid #1a1a1a;
-  display: flex;
-  align-items: center;
-  width: 15%;
-}
-.list-skill {
-  display: flex;
-}
-.photo-profile {
-  background-image: url(../images/bani-1.jpg);
-  width: 25%;
-  height: 380px;
-  border-radius: 20px;
-  margin: 30px 100px 40px;
-}
-
-/* main-work experience */
-
-.work-experience {
-  margin-top: 100px;
-}
-.work-head {
-  padding: 24px 0;
-  margin-bottom: 24px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.238);
-  width: 45%;
-}
-.simnu {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.238);
-}
-.factory-head {
-  width: 100%;
-  line-height: 150%;
-}
-.responsible {
-  width: 100%;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-}
-
-/* main-activity */
-
-.project-section {
-  margin: 5rem 0;
-  padding: 5rem 10rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project {
-  margin: 0 150px;
-  display: flex;
-  align-items: center;
-}
-.project-comming-soon {
-  display: flex;
-  width: 100px;
-  height: 100px;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  border-radius: 100px;
-  background-color: #333;
-  color: #f2f2f2;
-  font-weight: 500;
-}
-
-.activity-section {
-  padding: 24px 0;
-  margin-top: 100px;
-}
-.activity {
-  padding: 10px 0;
-  width: 15%;
-  border-bottom: #1a1a1a 1px solid;
-}
-.list-activity {
-  text-indent: 10px;
-  opacity: 0.7;
-  width: 35%;
-  padding: 10px;
-  transition: opacity 0.4s;
-  display: flex;
-  gap: 8px;
-  white-space: nowrap;
-}
-.bearmentor {
   text-decoration: none;
-  color: #333;
 }
-.list-activity:hover {
-  opacity: 1;
-  cursor: pointer;
+.list-day:hover {
+  background-color: #333;
 }
-.link {
-  width: 16px;
-  height: 16px;
+.description-photo {
 }
 
-/*  */
+/* footer */
 .footer {
-  background-image: url(../images/footerhd.jpg);
+  background-image: url(/images/footerhd.jpg);
   height: 850px;
   background-repeat: no-repeat;
   background-position: -1300px -800px;
   margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 .footer-main-content {
   display: flex;
@@ -430,5 +306,18 @@ p {
   color: #f2f2f2;
   padding: 10px;
   background-color: #040404;
-  margin-top: 108px;
+  /* margin-top: 108px; */
+}
+.linkcomeon {
+  text-decoration: none;
+  color: #f2f2f2;
+  background-color: hsla(302, 100%, 14%, 0.671);
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+  border-radius: 10px;
+}
+.linkcomeon:hover {
+  background-color: hsl(302, 100%, 14%);
+  color: #f2f2f2;
+  cursor: pointer;
 }
