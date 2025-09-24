@@ -405,7 +405,6 @@ p {
   padding: 10px;
   transition: opacity 0.4s;
   display: flex;
-  align-items: center;
   gap: 8px;
   white-space: nowrap;
 }
