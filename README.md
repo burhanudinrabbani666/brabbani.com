@@ -10,24 +10,23 @@ Hi, My name is Burhanudin Rabbani. I'm a beginner in web development and current
 
 ## Wire Frame
 
-this is a new wireframe. kedepannya akan bayak perubahan dan saya harap bisa selalu mendokuemntasikan semua perkembangan website pribadi saya.
-
+this is a new wireframe. In the future there will be many changes and I hope to always be able to document all the developments on my personal website.
 ![wireframe](/images/figma/wireframe.png)
 
 ## Final design
 
-final design yang pertama. masih sedikit dalam fitur juga kontennya. semoga kedepannya saya akna mencoba untuk konsisten memberikan pengalaman profesional saya di website ini. kemungnkinan juga bahwa design ini tidak 100% sama dengan hasil akhir pembuatan website secara html.
+This is the first final design. It's still lacking in features and content. Hopefully, I'll consistently share my professional experience on this website in the future. It's also possible that this design won't be 100% identical to the final HTML version.
 
-- logo = home button
-- Project = mengarahkan ke halaman project
-- About = mengarahkan ke halaman kegiatan belajar pribadi saya
-- Contact Me = mengarahkan ke halaman yang berisi pengisian formulir supaya bisa terhubung dengan saya
+- logo = home button.
+- Project = redirects to the project page.
+- About = redirect to my personal learning activity page.
+- Contact Me = direct to a page containing a form to fill out so you can connect with me.
 
 ![web-design](/images/figma/web-design.png)
 
-### Terima kasih
+### Thanks
 
-alhamdulillah mark down ini berhasil saya buat dengan tidak melebihkan apapun, ini adalah awal yang baik untuk menurut saya memulai karir saya dalam web develpoment
+Thank God, I managed to make this markdown without exaggerating anything. This is a good start for me to start my career in web development.
 
 ### Let's be friend
 
