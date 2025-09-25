@@ -502,3 +502,14 @@ p {
   background-size: cover;
   background-position: 0;
 }
+
+/* Project page */
+
+.project-page {
+  margin: auto;
+  text-align: center;
+}
+.project-page-text {
+  margin-top: 50px;
+  text-align: center;
+}
