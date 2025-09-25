@@ -132,6 +132,8 @@ body {
 
 header,
 main,
+.bearmentor-about,
+.description-bearmentor,
 .main-contact {
   width: 75%;
   margin: auto;
@@ -532,4 +534,46 @@ p {
 .project-page-text {
   margin-top: 50px;
   text-align: center;
+}
+
+/* bearmento about */
+
+.bearmentor-about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.bearmentor-heading {
+  margin-bottom: 24px;
+}
+.bearmentor-text {
+  margin-bottom: 16px;
+  width: 70%;
+}
+.main-photo {
+}
+
+/* desciption bearmentor */
+.description-bearmentor {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.list-day {
+  padding: 20px 30px;
+  font-weight: 600;
+  background-color: #3333336c;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.list-day a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.list-day:hover {
+  background-color: #333;
+}
+.description-photo {
 }
