@@ -1,6 +1,6 @@
 # brabbani.com
 
-Hi, let me introduce myself. My name is Burhanudin Rabbani. I'm a beginner in web development and currently taking the Bearmentor Bootcamp course. This is Markdown for my personal website, as part of the course assignment. I will develop this Markdown as the course progresses, along with my personal website developer. Thank you.
+Hi, My name is Burhanudin Rabbani. I'm a beginner in web development and currently taking the Bearmentor Bootcamp course. This is Markdown for my personal website, as part of the course assignment. I will develope this Markdown as the course progresses, along with my personal website developer. Thank you.
 
 ## Links
 
@@ -8,41 +8,26 @@ Hi, let me introduce myself. My name is Burhanudin Rabbani. I'm a beginner in we
 - GitHub: [burhanudinrabbani666](https://github.com/burhanudinrabbani666)
 - Website: [brabbani.com](https://brabbani-com.vercel.app/)
 
-## Home
+## Wire Frame
 
-![Home](images/Red/home.png)
+this is a new wireframe. kedepannya akan bayak perubahan dan saya harap bisa selalu mendokuemntasikan semua perkembangan website pribadi saya.
 
-Home have 5 sections
+![wireframe](/images/figma/wireframe.png)
 
-Hero: this page section not final design.
+## Final design
 
-About me: this section tell little bit about my vision and mision. also about my work experience
+final design yang pertama. masih sedikit dalam fitur juga kontennya. semoga kedepannya saya akna mencoba untuk konsisten memberikan pengalaman profesional saya di website ini. kemungnkinan juga bahwa design ini tidak 100% sama dengan hasil akhir pembuatan website secara html.
 
-Project:
+- logo = home button
+- Project = mengarahkan ke halaman project
+- About = mengarahkan ke halaman kegiatan belajar pribadi saya
+- Contact Me = mengarahkan ke halaman yang berisi pengisian formulir supaya bisa terhubung dengan saya
 
-In the project homepage, content is displayed on two screens. The first displays the company profile and website results, while the second displays a brief description of the project. There are also three buttons on each screen that can direct you to a more complete and detailed project description page, displaying all previously completed projects, and selecting the next project to be displayed.
+![web-design](/images/figma/web-design.png)
 
-### Detail Project Page
+### Terima kasih
 
-![detail-project](images/Red/detail-project.png)
-
-### Display Project Page
-
-![display-project](images/Red/project.png)
-
-Activity:
-
-This section will feature three main activities the author undertakes each month. These aren't Instagram posts, but rather self-development activities worth sharing. Each folder will take users directly to a more detailed page.
-
-### Activy Example Page
-
-![bearmentor-example](images/Red/experience-bearmentor-bootcamp.png)
-
-Footer:
-
-this section show contact
-
-That's a brief explanation of my personal website.
+alhamdulillah mark down ini berhasil saya buat dengan tidak melebihkan apapun, ini adalah awal yang baik untuk menurut saya memulai karir saya dalam web develpoment
 
 ### Let's be friend
 
