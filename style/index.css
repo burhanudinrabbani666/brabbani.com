@@ -495,12 +495,32 @@ p {
   font-weight: 600;
   color: #f2f2f2;
 }
+.button:hover {
+  background-color: #780274;
+}
+.input,
+.textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
 .contact-image {
   width: 800px;
-  height: 400px;
-  background-image: url(/images/chat.png);
-  background-size: cover;
-  background-position: 0;
+  margin-left: 200px;
+}
+.logo-sosmed {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+}
+.sosmed-contact {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+.logo-sosmed:hover {
+  opacity: 1;
+  transition: 0.2s;
 }
 
 /* Project page */
