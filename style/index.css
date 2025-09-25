@@ -211,6 +211,12 @@ p {
 }
 
 /* Header */
+.hero-header {
+  background-image: url(/images/hero-image.svg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 640px 130px;
+}
 
 .hero p {
   text-indent: 5px;
@@ -223,14 +229,22 @@ p {
   padding-bottom: 48px;
 }
 .short-intro {
-  width: 30%;
   margin-right: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
 }
 .position {
   margin-bottom: 12px;
 }
 .stay {
   font-weight: bold;
+}
+.text-support {
+  width: 35%;
+}
+.hero-image {
+  width: 500px;
 }
 .call-to-action {
   margin-top: 40px;
@@ -241,7 +255,7 @@ p {
 .linkcomeon {
   text-decoration: none;
   color: #f2f2f2;
-  background-color: hsla(302, 100%, 14%, 0.671);
+  background-color: hsla(302, 100%, 34%, 0.671);
   padding: 10px 20px;
   transition: background-color 0.2s;
   border-radius: 10px;
