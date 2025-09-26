@@ -1,0 +1,38 @@
+@media (max-width: 1077px) {
+  header,
+  main {
+    width: 75%;
+    margin: auto;
+  }
+
+  .photo-profile {
+    width: 250px;
+    border-radius: 20px;
+    margin-right: 0;
+  }
+
+  .project-section {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+  }
+}
+
+@media (max-width: 935px) {
+  .hero-image {
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+  }
+  .photo-profile {
+    margin-right: 0;
+    width: 200px;
+  }
+}

@@ -140,14 +140,14 @@ strong {
 }
 
 h1 {
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: clamp(4rem, 8vw, 8rem);
   color: #f4b400;
   font-weight: 1000;
   margin-top: 10px;
   font-family: "poppins", sans-serif;
 }
 h2 {
-  font-size: 2.488rem;
+  font-size: clamp(1.2rem, 8vw, 2.488rem);
   font-weight: bold;
 }
 h3 {
@@ -323,11 +323,13 @@ main,
   border-bottom: 1px solid rgba(0, 0, 0, 0.238);
   width: 45%;
 }
-.simnu {
+.factory-box {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.238);
+
+  gap: 40px;
 }
 .factory-head {
   width: 100%;
@@ -344,15 +346,22 @@ main,
 
 .project-section {
   margin: 5rem 0;
-  padding: 5rem 10rem;
+  padding: 0 10rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
 }
-
+.project,
+.quote {
+  border: 1px solid;
+}
 .project {
-  margin: 0 150px;
+  /* margin: 0 150px; */
   display: flex;
   align-items: center;
+}
+.quote {
+  width: 500 px;
 }
 .project-comming-soon {
   display: flex;
