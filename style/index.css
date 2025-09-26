@@ -128,17 +128,7 @@ body {
   color: #333;
   font-family: "inter", sans-serif;
   margin: auto;
-  width: 90%;
   border: 1px solid;
-}
-
-header,
-main,
-.bearmentor-about,
-.description-bearmentor,
-.main-contact {
-  width: 75%;
-  margin: auto;
 }
 
 .logo {
@@ -213,7 +203,19 @@ p {
   padding: 10px 20px;
   border-radius: 10px;
 }
-
+/* ************************************* */
+/* ************************************* */
+header,
+main,
+.bearmentor-about,
+.description-bearmentor,
+.main-contact {
+  width: 75%;
+  margin: auto;
+  border: 1px solid;
+}
+/* ******************************************** */
+/* ******************************************** */
 /* Header */
 .hero p {
   text-indent: 5px;
@@ -306,11 +308,8 @@ p {
   display: flex;
 }
 .photo-profile {
-  background-image: url(../images/bani-1.jpg);
-  width: 25%;
-  height: 300px;
   border-radius: 20px;
-  margin: 30px 100px 40px;
+  margin-right: 70px;
 }
 
 /* main-work experience */
