@@ -155,7 +155,7 @@
   /* footer */
   .footer {
     height: auto;
-    background-position: -1800px -1600px;
+    background-position: -1800px -1000px;
   }
   .footer-main-content {
     display: flex;
