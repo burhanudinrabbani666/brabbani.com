@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burhanudin Rabbani | Activity | Bearmentor</title>
-    <link rel="stylesheet" href="/style/index.css" />
+    <style>
+      body {
+        font-family: "Inter";
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 10%;
+      }
+    </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,30 +29,49 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="w-[75%] m-auto text-gray-700">
     <!-- navigation -->
-    <nav class="navbar">
+    <nav class="flex justify-between mt-[20px] mx-[100px] mb-[124px]">
       <a href="/"
-        ><img src="../images/icon/logo.png" alt="logo-rabbani" class="logo-nav"
+        ><img src="../images/icon/logo.png" alt="logo-rabbani" width="40px"
       /></a>
 
-      <div class="list-nav">
-        <div><a href="/project" class="list-nav-links">Project</a></div>
-        <div><a href="/about" class="list-nav-links">About</a></div>
-        <div><a href="/contact" class="list-nav-links">Contact Me</a></div>
+      <div class="flex gap-[30px]">
+        <div>
+          <a
+            href="/project"
+            class="text-gray-500 font-bold hover:bg-[#bc04b64f] hover:py-[10px] hover:px-[20px] hover:rounded-[10px]"
+            >Project</a
+          >
+        </div>
+        <div>
+          <a
+            href="/about"
+            class="text-gray-500 font-bold hover:bg-[#bc04b64f] hover:py-[10px] hover:px-[20px] hover:rounded-[10px]"
+            >About</a
+          >
+        </div>
+        <div>
+          <a
+            href="/contact"
+            class="text-gray-500 font-bold hover:bg-[#bc04b64f] hover:py-[10px] hover:px-[20px] hover:rounded-[10px]"
+            >Contact Me</a
+          >
+        </div>
       </div>
     </nav>
 
-    <section class="bearmentor-about">
+    <section class="flex justify-between mb-[0px] gap-[100px]">
       <div class="main-project-about">
-        <h2 class="bearmentor-heading">Bearmentor Bootcamp</h2>
-        <p class="bearmentor-text">
+        <h2 class="mb-[16px] text-[2.4rem] font-bold">Bearmentor Bootcamp</h2>
+        <p class="mb-[16px] w-[495px] text-[14px]">
           Come learn to become a qualified Web Developer or Software Engineer,
           while also creating various projects. With experienced industry
           mentors and comprehensive materials to prepare you for work.
         </p>
-        <p class="bearmentor-text">
+        <p class="mb-[16px] w-[495px] text-[14px]">
           6 months of learning covering Fundamental Software Engineering & Full
           Stack Web Development; UI/UX Design with Figma; Frontend with HTML,
           CSS, Tailwind CSS, JavaScript, TypeScript, React, React Router;
@@ -52,21 +80,33 @@
           Deployment in various ways; and so on.
         </p>
       </div>
-      <figure class="main-photo">
-        <img src="/images/team.jpg" alt="team-photo " />
+      <figure class="w-full h-auto">
+        <img src="/images/team.jpg" alt="team-photo" />
       </figure>
     </section>
 
-    <section class="description-bearmentor">
+    <section class="flex justify-bertween gap-[100px] mb-[100px]">
       <div class="day-button">
         <ul>
-          <li class="list-day"><a href="">Day 1: Start, introduction</a></li>
-          <li class="list-day"><a href="">Day 2: Website</a></li>
-          <li class="list-day"><a href="">Day 3: Code Editor</a></li>
+          <li
+            class="px-[30px] py-[20px] font-bold mb-[10px] rounded-[10px] bg-[#3333336c]"
+          >
+            <a href="">Day 1: Start, introduction</a>
+          </li>
+          <li
+            class="px-[30px] py-[20px] font-bold mb-[10px] rounded-[10px] bg-[#3333336c]"
+          >
+            <a href="">Day 2: Website</a>
+          </li>
+          <li
+            class="px-[30px] py-[20px] font-bold mb-[10px] rounded-[10px] bg-[#3333336c]"
+          >
+            <a href="">Day 3: Code Editor</a>
+          </li>
         </ul>
       </div>
 
-      <figure class="description-photo">
+      <figure class="w-5xl">
         <img src="/images/icon/Vector.png" alt="people" />
       </figure>
       <div class="description-day">
@@ -82,7 +122,7 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-main-content">
         <section class="footer-hero">
           <h2 class="footer-heading">
@@ -140,6 +180,6 @@
         © 2025Burhanudin Rabbani [5]. All rights reserved [1, 5]. All content on
         this website is protected by copyright law.
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>
