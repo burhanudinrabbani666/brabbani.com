@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burhanudin Rabbani</title>
-    <!-- <link rel="stylesheet" href="style/index.css" /> -->
+    <link rel="stylesheet" href="/dist/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,18 +19,64 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- ********************** -->
+    <!-- ********************** -->
+
+    <style>
+      h1 {
+        font-size: clamp(4rem, 8vw, 8rem);
+        font-weight: 1000;
+        margin-top: 10px;
+        font-family: "poppins", sans-serif;
+      }
+      h2 {
+        font-size: clamp(1.2rem, 8vw, 2.488rem);
+        font-weight: bold;
+      }
+      h3 {
+        font-size: 2.074rem;
+        font-weight: 600;
+      }
+      h4 {
+        font-size: 1.728rem;
+        font-weight: 600;
+      }
+
+      h5 {
+        font-size: 1.44rem;
+        font-weight: 600;
+      }
+      h6 {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    </style>
+    <!-- ********************** -->
+    <!-- ********************** -->
   </head>
-  <body>
+  <body class="bg-neutral-100 text-neutral-800 font-['inter', sans-serif]">
     <!-- navigation -->
-    <nav class="navbar">
+    <nav class="flex justify-between mt-5 mx-25 mb-31">
       <a href="/"
-        ><img src="images/icon/logo.png" alt="logo-rabbani" class="logo-nav"
+        ><img src="/images/icon/logo-home.svg" alt="logo-rabbani" class="w-10"
       /></a>
 
-      <div class="list-nav">
-        <div><a href="/project" class="list-nav-links">Project</a></div>
-        <div><a href="/about" class="list-nav-links">About</a></div>
-        <div><a href="/contact" class="list-nav-links">Contact Me</a></div>
+      <div class="flex items-center gap-14">
+        <div>
+          <a href="/project" class="text-gray-400 font-bold bg-fuchsia-600"
+            >Project</a
+          >
+        </div>
+        <div>
+          <a href="/about" class="text-gray-400 font-bold bg-fuchsia-600"
+            >About</a
+          >
+        </div>
+        <div>
+          <a href="/contact" class="text-gray-400 font-bold bg-fuchsia-600"
+            >Contact Me</a
+          >
+        </div>
       </div>
     </nav>
 
