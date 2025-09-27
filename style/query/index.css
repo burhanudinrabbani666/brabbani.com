@@ -37,6 +37,9 @@
   p {
     font-size: xx-small;
   }
+  h6 {
+    font-size: 14px;
+  }
 
   .navbar {
     display: flex;
