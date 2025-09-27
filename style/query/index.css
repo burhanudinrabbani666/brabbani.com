@@ -17,25 +17,6 @@
   }
 }
 
-@media (max-width: 935px) {
-  .hero-image {
-    width: 300px;
-    margin-top: 50px;
-    margin-right: 0;
-  }
-
-  .introduction {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 28px;
-  }
-  .photo-profile {
-    margin-right: 0;
-    width: 200px;
-  }
-}
-
 @media (max-width: 796px) {
   .intro-box {
     width: 50%;
@@ -52,38 +33,7 @@
   }
 }
 
-@media (max-width: 685px) {
-  .short-intro-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: first baseline baseline;
-  }
-  .hero-image {
-    width: 200px;
-    margin-top: 50px;
-    margin-right: 0;
-  }
-
-  .contact-link {
-    background-color: #bc04b6;
-    margin: 2px;
-    padding: 10px 10px;
-    align-items: center;
-    border-radius: 10px;
-    opacity: 0.8;
-    transition: opacity 0.3s;
-  }
-  .footer-logo {
-    width: 20px;
-  }
-  header,
-  main {
-    width: 95%;
-    margin: auto;
-  }
-}
-
-@media (max-width: 428px) {
+@media (max-width: 430px) {
   p {
     font-size: xx-small;
   }
