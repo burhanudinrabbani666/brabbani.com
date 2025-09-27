@@ -38,7 +38,10 @@
     font-size: xx-small;
   }
   h6 {
-    font-size: 14px;
+    font-size: smaller;
+  }
+  h5 {
+    font-size: small;
   }
 
   .navbar {
@@ -82,6 +85,11 @@
   }
   .intro-box {
     width: 100%;
+  }
+  #aboutme {
+    padding: 20px 0 5px;
+    border-bottom: 1px solid #333;
+    width: 50%;
   }
   .skill-head {
     border-right: 2px solid #1a1a1a;
@@ -132,7 +140,16 @@
     justify-content: center;
     align-items: center;
   }
-
+  .activity {
+    padding: 10px 0;
+    width: 30%;
+    border-bottom: #333 1px solid;
+  }
+  .bearmentor {
+    text-decoration: none;
+    color: #333;
+    font-size: smaller;
+  }
   /* *******************/
   /* ******************* */
   /* footer */
@@ -141,10 +158,10 @@
   }
   .footer-main-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: auto;
-    margin: 10px;
+    margin: 20px;
   }
   .footer-hero {
     color: #f2f2f2;
@@ -165,8 +182,12 @@
     margin: 0px 2px;
     border-radius: 10px;
     margin-bottom: 2px;
-    margin-right: 20px;
+    margin-right: 0;
     opacity: 0.8;
     transition: opacity 0.3s;
+    padding: 10px 10px;
+  }
+  .footer-logo {
+    width: 20px;
   }
 }
