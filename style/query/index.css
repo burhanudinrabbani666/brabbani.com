@@ -84,6 +84,10 @@
 }
 
 @media (max-width: 428px) {
+  p {
+    font-size: xx-small;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -105,7 +109,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid black;
   }
   .gald {
     width: 100%;
@@ -116,39 +119,98 @@
     margin-right: 0;
   }
 
-  .photo-profile {
-    width: 150px;
-    margin-right: 0;
+  /* *********************************8 */
+  /* *********************************8 */
+  /*  main area */
+  .introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
   }
+  .intro-box {
+    width: 100%;
+  }
+  .skill-head {
+    border-right: 2px solid #1a1a1a;
+    display: flex;
+    align-items: center;
+    width: 35%;
+  }
+  .introduction-text {
+    margin: 6px 0 6px;
+    text-align: justify;
+  }
+  .photo-profile {
+    border-radius: 10px;
+    margin-right: 0px;
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    object-position: -19px;
+  }
+
+  /* work */
+
+  .work-experience {
+    margin-top: 50px;
+  }
+  .work-head {
+    padding: 24px 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.238);
+    width: 70%;
+  }
+
+  /* ******************** */
+  /* ******************** */
 
   .project {
     display: flex;
     align-items: center;
-    width: 150px;
+    width: 130px;
+    border: 1px solid;
+    margin-left: 20px;
   }
-
+  .quote {
+    width: 150px;
+    font-size: xx-small;
+  }
   .project-section {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  /* *******************/
+  /* ******************* */
+  /* footer */
+  .footer {
+    height: auto;
+  }
   .footer-main-content {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    height: auto;
+    margin: 20px;
+  }
+  .footer-hero {
+    color: #f2f2f2;
+    margin-top: 100px;
   }
 
   .footer-contact {
     display: flex;
-
     flex-direction: column;
   }
 
   .contact-link {
     background-color: #bc04b6;
-    margin: -100px2px;
-    align-items: center;
+    margin: 0px 2px;
     border-radius: 10px;
+    margin: 3px;
     opacity: 0.8;
     transition: opacity 0.3s;
   }
