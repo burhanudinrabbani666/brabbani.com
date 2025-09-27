@@ -1,0 +1,9 @@
+body {
+  font-family: "Inter";
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 10%;
+}
