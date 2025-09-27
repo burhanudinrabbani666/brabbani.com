@@ -406,7 +406,7 @@ main,
 /* ************************************************************************************* */
 /*  */
 .footer {
-  background-image: url(../images/footerhd.jpg);
+  background-image: url(/images/footerhd.jpg);
   height: 850px;
   background-repeat: no-repeat;
   background-position: -1300px -800px;
