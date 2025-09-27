@@ -128,7 +128,6 @@ body {
   color: #333;
   font-family: "inter", sans-serif;
   margin: auto;
-  border: 1px solid;
 }
 
 .logo {
@@ -212,7 +211,6 @@ main,
 .main-contact {
   width: 75%;
   margin: auto;
-  border: 1px solid;
 }
 /* ******************************************** */
 /* ******************************************** */
@@ -345,14 +343,12 @@ main,
 
 .project-section {
   margin: 5rem 0;
-  padding: 0 10rem;
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 30px;
 }
 .project,
 .quote {
-  border: 1px solid;
 }
 .project {
   /* margin: 0 150px; */
@@ -360,7 +356,7 @@ main,
   align-items: center;
 }
 .quote {
-  width: 500 px;
+  width: 300px;
 }
 .project-comming-soon {
   display: flex;

@@ -1,7 +1,7 @@
 @media (max-width: 1077px) {
   header,
   main {
-    width: 75%;
+    width: 85%;
     margin: auto;
   }
 
@@ -14,7 +14,6 @@
   .project-section {
     display: flex;
     justify-content: center;
-    border: 1px solid;
   }
 }
 
@@ -34,5 +33,108 @@
   .photo-profile {
     margin-right: 0;
     width: 200px;
+  }
+}
+
+@media (max-width: 796px) {
+  .intro-box {
+    width: 50%;
+  }
+  .introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .photo-profile {
+    width: 200px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 685px) {
+  .short-intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline baseline;
+  }
+  .hero-image {
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .contact-link {
+    background-color: #bc04b6;
+    margin: 2px;
+    padding: 10px 10px;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  .footer-logo {
+    width: 20px;
+  }
+  header,
+  main {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 428px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 70px;
+    border: 1px solid;
+  }
+  .logo-nav {
+    width: 35px;
+  }
+  .list-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  /* *********************************** */
+  /* *********************************** */
+
+  .photo-profile {
+    width: 150px;
+    margin-right: 0;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+    width: 150px;
+  }
+
+  .project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .footer-contact {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .contact-link {
+    background-color: #bc04b6;
+    margin: -100px2px;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
   }
 }
