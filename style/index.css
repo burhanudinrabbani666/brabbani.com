@@ -226,6 +226,7 @@ main,
   display: flex;
   justify-content: space-between;
   align-items: start;
+  border: 1px solid black;
 }
 .short-intro {
   margin-top: 24px;
