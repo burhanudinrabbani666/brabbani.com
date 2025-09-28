@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burhanudin Rabbani | Project</title>
-    <link rel="stylesheet" href="/style/index.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-
+    <link href="/src/output.css" rel="stylesheet" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
     <!-- inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,30 +16,53 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="bg-neutral-100">
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="flex justify-between mt-5 mx-24 mb-14">
       <a href="/"
-        ><img src="/images/icon/logo.png" alt="logo-rabbani" class="logo-nav"
+        ><img
+          src="/images/icon/logo-home.svg"
+          alt="logo-rabbani"
+          class="w-24 flex items-center"
       /></a>
 
-      <div class="list-nav">
-        <div><a href="#" class="list-nav-links">Project</a></div>
-        <div><a href="/about" class="list-nav-links">About</a></div>
-        <div><a href="/contact" class="list-nav-links">Contact Me</a></div>
+      <div class="flex gap-4">
+        <div>
+          <a
+            href="/project"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >Project</a
+          >
+        </div>
+        <div>
+          <a
+            href="/about"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >About</a
+          >
+        </div>
+        <div>
+          <a
+            href="/contact"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >Contact Me</a
+          >
+        </div>
       </div>
     </nav>
 
     <!-- project -->
 
-    <section class="project-page">
-      <h1 class="animate__animated animate__backInRight" style="color: #333">
-        Project
-      </h1>
-    </section>
-    <aside class="project-page-text">
-      <p class="animate__animated animate__backInLeft">Coming soon</p>
-    </aside>
+    <h1
+      class="animate__animated animate__backInRight text-center text-9xl font-black text-neutral-800 mb-10 mt-40"
+    >
+      Project
+    </h1>
+    <div
+      class="animate__animated animate__backInLeft py-4 px-6 bg-neutral-800 text-neutral-100 w-36 text-center m-auto rounded-4xl font-bold"
+    >
+      Coming soon
+    </div>
 
     <!-- footer -->
   </body>
