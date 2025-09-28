@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burhanudin Rabbani | Contact</title>
-    <link rel="stylesheet" href="../style/index.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,45 +19,84 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 10%;
+      }
+    </style>
+    <link rel="stylesheet" href="../src/output.css" />
   </head>
-  <body>
-    <nav class="navbar">
+  <body class="bg-neutral-100">
+    <nav class="flex justify-between mt-5 mx-24 mb-20">
       <a href="/"
-        ><img src="/images/icon/logo.png" alt="logo-rabbani" class="logo-nav"
+        ><img
+          src="/images/icon/logo-home.svg"
+          alt="logo-rabbani"
+          class="w-24 flex items-center"
       /></a>
 
-      <div class="list-nav">
-        <div><a href="/project" class="list-nav-links">Project</a></div>
-        <div><a href="/about" class="list-nav-links">About</a></div>
-        <div><a href="/contact" class="list-nav-links">Contact Me</a></div>
+      <div class="flex gap-4">
+        <div>
+          <a
+            href="/project"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >Project</a
+          >
+        </div>
+        <div>
+          <a
+            href="/about"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >About</a
+          >
+        </div>
+        <div>
+          <a
+            href="/contact"
+            class="text-neutral-100 font-bold bg-fuchsia-600 px-5 py-2.5 rounded-2xl hover:bg-fuchsia-800"
+            >Contact Me</a
+          >
+        </div>
       </div>
     </nav>
 
-    <section class="main-contact">
-      <section class="input-box">
-        <h2 class="drop">Drop me a line</h2>
-        <p class="ifyou">
+    <section class="flex justify-between w-3/4 m-auto">
+      <section class="flex flex-col mb-6 w-2/5">
+        <h2 class="mb-6 text-3xl font-bold">Drop me a line</h2>
+        <p class="indent-2.5">
           If you have any questions or would like to discuss further, please
           feel free to leave your message below.
         </p>
         <input
           type="text"
           name="your-name"
-          class="input"
+          class="mb-3 py-2.5 indent-2.5 bg-neutral-100 border-0 border-b border-neutral-800 focus:outline-0"
           placeholder="Your name"
         />
-        <input type="text" name="email" class="input" placeholder="Email" />
+        <input
+          type="text"
+          name="email"
+          class="mb-3 py-2.5 indent-2.5 bg-neutral-100 border-0 border-b border-neutral-800 focus:outline-0"
+          placeholder="Email"
+        />
         <textarea
           name="textarea"
-          class="textarea"
+          class="indent-2.5 border-0 border-b border-neutral-800 focus:outline-0 mb-8"
           placeholder="Message"
         ></textarea>
-        <button type="button" class="button">submit</button>
-        <div class="sosmed-contact">
+        <button
+          type="button"
+          class="bg-fuchsia-600 w-1/3 m-auto border-0 py-2.5 px-5 rounded-2xl font-bold text-neutral-100 hover:bg-fuchsia-800"
+        >
+          submit
+        </button>
+        <div class="flex gap-5 justify-center mt-24">
           <div>
             <a href="https://github.com/burhanudinrabbani666">
               <img
-                class="logo-sosmed"
+                class="w-10 opacity-50 hover:opacity-100"
                 src="/images/icon/github.png"
                 alt="GitHub"
               />
@@ -67,7 +105,7 @@
           <div>
             <a href=""
               ><img
-                class="logo-sosmed"
+                class="w-10 opacity-50 hover:opacity-100"
                 src="/images/icon/linkedin.png"
                 alt="linkedin_icon"
             /></a>
@@ -75,7 +113,7 @@
           <div>
             <a href=""
               ><img
-                class="logo-sosmed"
+                class="w-10 opacity-50 hover:opacity-100"
                 src="/images/icon/twitter(1).png"
                 alt="x_icon"
             /></a>
@@ -83,7 +121,7 @@
           <div>
             <a href=""
               ><img
-                class="logo-sosmed"
+                class="w-10 opacity-50 hover:opacity-100"
                 src="/images/icon/telegram.png"
                 alt="telegram_icon"
             /></a>
@@ -91,15 +129,15 @@
           <div>
             <a href=""
               ><img
-                class="logo-sosmed"
+                class="w-10 opacity-50 hover:opacity-100"
                 src="/images/icon/instagram.png"
                 alt="instagram_icon"
             /></a>
           </div>
         </div>
       </section>
-      <figure class="contact-image">
-        <img src="/images/contact-hero.png" alt="" />
+      <figure class="bg-[auto 800px] ml-96">
+        <img src="/images/contact-hero.png" alt="images" />
       </figure>
     </section>
   </body>
