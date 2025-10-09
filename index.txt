@@ -1,0 +1,50 @@
+Hello, my name is Burhanudin Rabbani.
+I am pursuing a career as a Full Stack Developer and UI/UX Designer, driven by a strong passion for technology, digital art, and the open-source community.
+
+The concept of open source deeply resonates with me because it embodies collaboration, transparency, and shared human creativity. My interest in art stems from similar values, combining innovation with meaningful expression.
+
+Before transitioning into tech, I worked in a factory. In 2025, I made the decision to leave that role because it offered little room for growth or the pursuit of my passions. However, I’m grateful for that experience—it taught me discipline, resilience, and the value of hard work.
+
+In my professional life, I prioritize continuous learning, attention to detail, and strong collaboration. I strive to deliver high-quality work while maintaining positive and productive relationships with my colleagues.
+
+Currently, I’m studying web development with a focus on JavaScript and its frameworks. My goal is to build solutions that maximize value and satisfaction for both users and collaborators.
+
+Looking ahead, I hope to make a meaningful contribution to the open-source world and, eventually, to create my own games and other digital experiences that can be enjoyed by people around the globe.
+
+“He who has a reason to live can bear almost any how.” – Friedrich Nietzsche
+
+I’m committed to growing, taking meaningful risks, and building a career defined by creativity, impact, and freedom.
+
+
+Hero
+- I am a dedicated Full Stack Developer, committed to continuous growth and delivering innovative, high-quality solutions.
+- Showing a professional casual photo.
+
+Highlight / Value Section
+
+- I am very generous and love everything about the world I am living in, especially technology.
+- Tech Stack : HTML, CSS, JavaScript
+Wok experiences:
+
+    1. 2022 - 2025 PT SIMNU Majalengka. Operator Produksi. tanggung jawab utama melakukan persiapan dan pengoperasian bagian unwinder. serta bertanggung jawab untuk bagian lainnya; top skin, skin, Foam.
+
+    2. Personal Website : My very First Personal Website
+    3. Address Book : The Address Book project is designed to help users view, add, edit, group, and delete contacts, as well as display their interaction history.
+
+i wanna people to see my website as simple start canvas for becoming professional and more interesting and human in the future.
+
+CTA
+  - Visit my previously work.
+  - Contact me
+  - Download CV
+
+link to my social media :
+  1. Linkedin.
+  2. GitHub.
+  3. X.
+  4. Facebook.
+  5. Instagram
+
+form to : email
+
+
